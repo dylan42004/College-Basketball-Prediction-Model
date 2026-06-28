@@ -1,1 +1,14 @@
+# Python 3.12. Install into a fresh virtual environment:
+#   pip install -r requirements.txt
+#
+# Note: predict.py drives headless Chrome via Selenium, so it also needs Google
+# Chrome installed locally. Selenium 4.6+ auto-manages the matching chromedriver,
+# so there's nothing else to install for that.
 
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+xgboost==3.3.0
+joblib==1.5.3
+requests==2.33.1
+selenium==4.45.0
